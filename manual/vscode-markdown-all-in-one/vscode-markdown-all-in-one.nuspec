@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vscode-markdown</id>
+    <version>3.1.0</version>
+    <packageSourceUrl>https://github.com/shawyunz/chocolatey-packages</packageSourceUrl>
+    <owners>Shaw6157</owners>
+    <title>Markdown All in One VSCode Extension</title>
+    <authors>Yu Zhang</authors>
+    <projectUrl>https://github.com/yzhang-gh/vscode-markdown</projectUrl>
+    <iconUrl>https://github.com/yzhang-gh/vscode-markdown/blob/master/images/Markdown-mark.png</iconUrl>
+    <licenseUrl>https://github.com/yzhang-gh/vscode-markdown/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/yzhang-gh/vscode-markdown</projectSourceUrl>
+    <docsUrl>https://github.com/yzhang-gh/vscode-markdown/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/yzhang-gh/vscode-markdown/issues</bugTrackerUrl>
+    <tags>microsoft visualstudiocode vscode extension markdown </tags>
+    <summary>All you need for Markdown in VSCode (keyboard shortcuts, table of contents, auto preview and more).</summary>
+    <description>
+    All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+    #### Table of contents
+
+    - Features
+      - Keyboard shortcuts
+      - Table of contents
+      - List editing
+      - Print Markdown to HTML
+      - GitHub Flavored Markdown
+      - Math
+      - Auto completions
+      - Others
+    - Available Commands
+    - Keyboard Shortcuts
+    - Supported Settings
+    - FAQ
+    - Changelog
+    - Latest Development Build
+    - Contributing
+    - Related
+
+    </description>
+    <releaseNotes>https://github.com/yzhang-gh/vscode-markdown/blob/master/CHANGELOG.md</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-vscode.extension" version="1.0.0" />
+    </dependencies>
+  </metadata>
+</package>

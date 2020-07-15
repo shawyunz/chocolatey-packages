@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vscode-git-graph</id>
+    <version>1.24.0</version>
+    <packageSourceUrl>https://github.com/shawyunz/chocolatey-packages</packageSourceUrl>
+    <owners>Shaw6157</owners>
+    <title>Git Graph VSCode Extension</title>
+    <authors>mhutchie</authors>
+    <projectUrl>https://github.com/mhutchie/vscode-git-graph</projectUrl>
+    <iconUrl>https://github.com/mhutchie/vscode-git-graph/blob/develop/resources/icon.png</iconUrl>
+    <licenseUrl>https://github.com/mhutchie/vscode-git-graph/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/mhutchie/vscode-git-graph</projectSourceUrl>
+    <docsUrl>https://github.com/mhutchie/vscode-git-graph/blob/develop/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/mhutchie/vscode-git-graph/issues</bugTrackerUrl>
+    <tags>microsoft visualstudiocode vscode extension git action diff graph visualise</tags>
+    <summary>View a Git Graph of your repository in VSCode, and easily perform Git actions from the graph.</summary>
+    <description>
+    1. Git Graph View
+    2. A broad range of configurable settings (e.g. graph style, branch colours, and more...). See the 'Extension Settings' section below for more information.
+    3. "Git Graph" launch button in the Status Bar
+    4. "Git Graph: View Git Graph" launch command in the Command Palette
+    </description>
+    <releaseNotes>https://github.com/mhutchie/vscode-git-graph/blob/master/CHANGELOG.md</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-vscode.extension" version="1.0.0" />
+    </dependencies>
+  </metadata>
+</package>
